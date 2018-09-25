@@ -68,6 +68,17 @@ a {
   }
 }
 
+@media screen and (max-device-width : 480px) {
+
+        #sidebar{
+	        display:none;
+	        }
+
+                #menu{
+               text-align:center;
+               }
+}
+
 header {
 	padding-top: 50px;
 	color: #FFF;
